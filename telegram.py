@@ -1,6 +1,6 @@
 import telebot
 import tweet
-bot = telebot.TeleBot("1765737707:AAHXXP8-7Dh9p28LE3WHMRs4bqFxXN3lp0M")
+bot = telebot.TeleBot("5957261449:AAGnSIajkIVbWVH4-uIabx9uCBVJS0TyZuk")
 
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
